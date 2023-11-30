@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_prac_1</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" type="image/x-icon">
+    <style>
+        p{
+            background-color: cadetblue;
+        }
+        input[type="password"]{
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is HEADING h1</h1>
+    <h2>This is HEADING h2</h2>
+    <h3>This is HEADING h3</h3>
+    <h4>This is HEADING h4</h4>
+    <h5>This is HEADING h5</h5>
+    <h6>This is HEADING h6</h6>
+    <hr>
+    <p>This is a paragraph . The <strong>strong</strong> and <b>bold</b> looks like same but they work differently .
+        Strong is a semantic tag and bold is not . As like <em>emphasize</em> is a sementic tag and <i>italic</i> is not
+        . Though emphasize and italic tag looks like same . </p>
+    <p>Semantic tag means that it is a meaningful tag .</p>
+    <p>In this paragraph I am using <small>small</small> tag</p>
+    <p>This is a uses of <b>BOLD</b> tag</p>
+    <p>This is a uses of <strong>STRONG</strong> tag</p>
+    <p>This is a uses of <em>EMPHASIZE</em> tag</p>
+    <p>This is uses of <i>ITALIC</i> tag</p>
+    <hr>
+    <p>Inline --> in a line : strong , em , i , small , span </p>
+    <p>block --> p, h1 , div </p>
+    <hr>
+    <h4>Lets discuss about li , ul , ol</h4>
+    List item--> li
+    <li>Biriyani </li>
+    <li>Kala vuna </li>
+    <li>Lemon</li>
+    <li>Borhani</li>
+    <li>Salt</li>
+
+    unordered list --> ul
+    <br>
+    container tag
+    <ul>
+        <li>Biriyani </li>
+        <li>Kala vuna </li>
+        <li>Lemon</li>
+        <li>Borhani</li>
+        <li>Salt</li>
+    </ul>
+
+    ordered list --> ol
+    <br>
+    Container tag
+    <ol type="a">
+        <li>Biriyani </li>
+        <li>Kala vuna </li>
+        <li>Lemon</li>
+        <li>Borhani</li>
+        <li>Salt</li>
+    </ol>
+
+    <hr>
+
+    <div>
+        <h2>Grocery List </h2>
+        <ul type="disc">
+            <li>Fish</li>
+            <li>Vegetable </li>
+            <li>salt</li>
+            <ul>
+                <li>Molla salt</li>
+                <li>Super salt</li>
+            </ul>
+            <li>Sugar</li>
+        </ul>
+    </div>
+
+    <div style="background-color: antiquewhite;">
+        <h3>My div</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur ullam praesentium dolores reiciendis ipsam enim aliquid dolor quia nesciunt facere.</p>
+    </div>
+    <hr>
+    <div>
+        Now this is uses of <b>anchor (a)</b> and <b> {img (images from different location)} </b> tag :
+        <ol>
+            <li style="color: brown;">Linked with online url --> <br> <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Traveling to goggle</a><br><img width="25%" src="https://www.emmys.com/sites/default/files/photos-article/anime-survey2-900x600.jpg" alt=""></li>
+            <li>Linked with Internal file --> <br> <a href="Extra1.html" target="_blank" rel="noopener noreferrer">Traveling to an internal file </a><br><img width="25%" src="wallpaperflare.com_wallpaper.jpg" alt=""></li>
+            <li>Linked with External file --> <br> <a href="/UNIMPORTANT FILE/U1.html" target="_blank" rel="noopener noreferrer">Traveling to an external file .</a><br><img width="25%" src="/Photos/Random_photo/wallpaperflare.com_wallpaper (1).jpg" alt=""></li>
+        </ol>
+    </div>
+
+    <button>This is a random button !</button>
+
+    <hr>
+
+    <form action="">
+        This is a form . Lets discuss various input type : 
+        <br>
+        <br>
+        <h5>1.Button type input :</h5>
+        <input type="button" value="This is a button type input">
+        <br>
+        <br>
+        <h5>2.Checkbox type input :</h5>
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="car">
+        <label for="vehicle1">I have a car</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="bike">
+        <label for="vehicle2">I have a bike</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="boat">
+        <label for="vehicle3">I have a boat</label>
+        <br>
+        <br>
+        <h5>3.Color type input : </h5>
+        choose a color --> <br>
+        <input type="color" name="Head" id="Head" value="#e66465">
+        <label for="Head">Head</label>
+        <input type="color" name="Body" id="Body">
+        <label for="Body">Body</label>
+        <br>
+        <br>
+        <h5>4.Date type input : </h5>
+        <label for="birthday">Birthday: </label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <br>
+        <h5>5.Datetime-local type input :</h5>
+        <label for="birthday_date">Birthday date and time :</label>
+        <input type="datetime-local" name="birthday_date" id="birthday_date">
+        <br>
+        <br>
+        <h5>6.Email type input : </h5>
+        <label for="email">Enter e-mail : </label>
+        <input type="email" placeholder="Your Email" name="email" id="email">
+        <br>
+        <br>
+        <h5>7.File type input : </h5>
+        <input type="file" name="" id="" accept="Photos">
+        <br>
+        <br>
+        <h5>8.Hidden type input :</h5>
+        <input type="hidden" name="">
+        <br>
+        <br>
+        <h5>9.Image type input :(It works as a submit button)</h5>
+        <input type="image" src="wallpaperflare.com_wallpaper.jpg" alt="Submit" width="10%">
+        <br>
+        <br>
+        <h5>10.Month type input :</h5>
+        <input type="month" name="" id="">
+        <br>
+        <br>
+        <h5>11.Number type input : </h5>
+        <input type="number" name="" id="">
+        <br>
+        <br>
+        <h5>12.Password type input :</h5>
+        <input type="password" placeholder="Set a password" name="" id="">
+        <br>
+        <br>
+        <h5>13.Radio type input : </h5>
+        <p>Select your fav web language --></p>
+        <input type="radio" name="fav_language" id="HTML">
+        <label for="HTML">HTML</label><br>
+        <input type="radio" name="fav_language" id="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="radio" name="fav_language" id="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+        <br>
+        <br>
+        <h5>14.Range type input :</h5>
+        <label for="marks">Marks in exams : </label>
+        <input type="range" name="marks" id="marks" min="0" max="100">
+        <br>
+        <br>
+        <h5>15.Search type input :</h5>
+        <label for="site_search">Search in Site : </label>
+        <input type="search" name="q" id="site_search">
+        <br>
+        <br>
+        <h5>16.Submit type input :</h5>
+        <input type="submit" value="This is a submit input">
+        <br>
+        <br>
+        <h5>17.Telephone type input :</h5>
+        <input type="tel" name="" id="">
+        <br>
+        <br>
+        <h5>18.Time type input :</h5>
+        <input type="time" name="" id="">
+        <br>
+        <br>
+        <h5>19.Text type input : </h5>
+        <label for="">Name : </label>
+        <input type="text" placeholder="Enter your name" name="" id="">
+        <br>
+        <br>
+        <h5>20.URL type input :</h5>
+        <input type="url" name="" id="">
+        <br>
+        <br>
+        <h5>21.Week type input :</h5>
+        <input type="week" name="" id="">
+        <br>
+        <br>
+        <h5>22.Reset type input :</h5> 
+        <input type="reset" value="Reset All">
+        <br>
+        <br>
+        <hr>
+        <h4>*Using select tag :</h4>
+        <select name="select" id="">
+            <option value="Tea">Tea</option>
+            <option value="Cold Coffe">Cold Coffe</option>
+            <option value="Hot Coffe">Hot Coffe</option>
+        </select>
+        <hr>
+        <h3>Using Download tag : </h3>
+        <img width="25%" src="/Photos/Random_photo/wallpaperflare.com_wallpaper (1).jpg" alt=""><br>
+        <a href="/Photos/Random_photo/wallpaperflare.com_wallpaper (1).jpg" download>Download this image</a>
+    </form>
+    <hr>
+
+   <!-- Certainly! Below is a list of common block-level elements in HTML along with a brief explanation of each:
+
+   1.<address>:
+   Represents the contact information for the author or owner of a document or an article.
+
+   2.<article>:
+   Represents an independent piece of content that can be distributed and reused independently, such as a news article or blog post.
+
+   3.<aside>:
+   Represents content that is tangentially related to the content around it, such as sidebars or pull quotes.
+
+   4.<blockquote>:
+   Represents a block of text that is a quotation from another source, often indented.
+
+   5.<div>:
+   A generic container that is often used to group other HTML elements and apply styles using CSS.
+
+   6.<dl>:
+   Represents a description list, typically consisting of a series of term/definition pairs using <dt> (term) and <dd> (definition) elements.
+
+   7.<fieldset>:
+   Groups related elements within a <form> and can include a <legend> to provide a caption for the grouping.
+
+   8.<figure>:
+   Represents any content that is referenced from the main content, such as images, charts, or code snippets.
+
+   9.<figcaption>:
+   Represents a caption or legend for the content of a <figure> element.
+
+   10.<footer>:
+   Represents the footer of a section or page, typically containing metadata, copyright information, or links to related documents.
+
+   11.<form>:
+   Represents an HTML form, which is used to collect user input.
+
+   12.<h1>, <h2>, <h3>, <h4>, <h5>, <h6>:
+   Headings of different levels, ranging from the most important (<h1>) to the least important (<h6>).
+
+   13.<header>:
+   Represents the header of a section or page, often containing headings, logos, navigation, or other introductory content.
+
+   14.<hgroup>:
+   Groups a set of <h1>–<h6> elements when they are part of a heading.
+
+   15.<hr>:
+   Represents a thematic break or horizontal line, often used to separate sections of a document.
+
+   16.<main>:
+   Represents the main content of the document, excluding headers, footers, and sidebars.
+
+   17.<nav>:
+   Represents a section of navigation links.
+
+   18.<noscript>:
+   Provides fallback content for users who have disabled JavaScript in their browsers.
+
+   19.<ol>:
+   Represents an ordered list, typically rendered with numbers.
+
+   20.<p>:
+   Represents a paragraph of text.
+
+   21.<pre>:
+   Represents preformatted text, preserving both spaces and line breaks.
+
+   22.<section>:
+   Represents a section of a document, often grouped with a heading.
+
+   23.<table>:
+   Represents a table, which can include rows (<tr>), cells (<td> or <th>), and captions (<caption>).
+
+   24.<ul>:
+   Represents an unordered list, typically rendered with bullets.
+
+   25.<li>:
+   Represents a list item in ordered (<ol>) or unordered (<ul>) lists.
+
+   These block-level elements play crucial roles in structuring the content and layout of an HTML document.  
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+    Certainly! Below is a list of common inline elements in HTML along with a brief explanation of each:
+
+1. **`<a>`:**
+   - Represents a hyperlink, allowing users to navigate to another page or resource.
+
+2. **`<abbr>`:**
+   - Represents an abbreviation or acronym, optionally providing a full description.
+
+3. **`<b>`:**
+   - Represents bold text. However, it's often preferable to use `<strong>` for semantic importance.
+
+4. **`<cite>`:**
+   - Represents the title of a creative work, such as a book or movie. Used inside `<blockquote>` or `<i>` to denote the source.
+
+5. **`<code>`:**
+   - Represents a single line of code or code snippet.
+
+6. **`<em>`:**
+   - Represents emphasized text, typically displayed in italics. It carries semantic importance.
+
+7. **`<i>`:**
+   - Represents text in an alternative voice or mood, often displayed in italics.
+
+8. **`<img>`:**
+   - Represents an image. It is technically an inline element, but it can be styled like a block-level element.
+
+9. **`<span>`:**
+   - A generic container that does not carry any semantic meaning. It is often used to apply styles to a specific portion of text.
+
+10. **`<strong>`:**
+    - Represents strongly emphasized text, typically displayed in bold. It carries semantic importance.
+
+11. **`<br>`:**
+    - Represents a line break within text, forcing the text following it to appear on a new line.
+
+12. **`<small>`:**
+    - Represents smaller text, often used for disclaimers, legal text, or fine print.
+
+13. **`<sub>`:**
+    - Represents subscript text, typically used for mathematical or chemical formulas.
+
+14. **`<sup>`:**
+    - Represents superscript text, often used for footnotes or exponents.
+
+15. **`<time>`:**
+    - Represents a specific period in time or a range, providing machine-readable data.
+
+16. **`<abbr>`:**
+    - Represents an abbreviation or acronym, optionally providing a full description.
+
+17. **`<cite>`:**
+    - Represents the title of a creative work, such as a book or movie. Used inside `<blockquote>` or `<i>` to denote the source.
+
+18. **`<mark>`:**
+    - Represents text highlighted or marked for reference or emphasis.
+
+19. **`<q>`:**
+    - Represents a short quotation, typically enclosed in quotation marks.
+
+20. **`<del>`:**
+    - Represents deleted or struck-through text.
+
+21. **`<ins>`:**
+    - Represents inserted text, often underlined.
+
+22. **`<kbd>`:**
+    - Represents text to be entered by the user, often indicating keyboard input.
+
+23. **`<var>`:**
+    - Represents the name of a variable in mathematical or programming contexts.
+
+24. **`<cite>`:**
+    - Represents the title of a creative work, such as a book or movie. Used inside `<blockquote>` or `<i>` to denote the source.
+
+These inline elements are used to apply specific styles, add semantic meaning, or embed various types of content within the flow of text on a web page. Understanding when and how to use these elements helps create well-structured and accessible HTML documents.
+   -->
+    <footer><small>All rights reserved .</small></footer>
+
+</body>
+
+</html>
