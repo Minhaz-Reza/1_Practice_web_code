@@ -42,9 +42,9 @@ padding: 18px 35px;
 }
 .header{
     background: #FFF8F3;
-    background-image: url('/Photos/Second_Project/header_bg.png');
+    background-image: url('/Photos/Second_Project/header_bg.png') , url('/Photos/Second_Project/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
